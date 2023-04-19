@@ -1,0 +1,29 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "SiAirtable",
+      "FabAdn",
+      "FabAudible",
+      "SiPcgamingwiki",
+      "FabInternetExplorer"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    }
+  },
+  "01公安类": "FabAccusoft",
+  "02个人生活类": "FabEllo",
+  "03 IT类": "FabAudible",
+  "00A未归档": "FabAdn",
+  "其他内容（勿动！！！）/Dateview/DateView使用页.md": "SiAirtable"
+}

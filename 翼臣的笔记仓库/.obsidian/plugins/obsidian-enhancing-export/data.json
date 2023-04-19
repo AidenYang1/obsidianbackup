@@ -1,0 +1,57 @@
+{
+  "items": [
+    {
+      "name": "Markdown"
+    },
+    {
+      "name": "Markdown (Hugo)"
+    },
+    {
+      "name": "Html"
+    },
+    {
+      "name": "TextBundle"
+    },
+    {
+      "name": "PDF"
+    },
+    {
+      "name": "Word (.docx)"
+    },
+    {
+      "name": "OpenOffice"
+    },
+    {
+      "name": "RTF"
+    },
+    {
+      "name": "Epub"
+    },
+    {
+      "name": "Latex"
+    },
+    {
+      "name": "Media Wiki"
+    },
+    {
+      "name": "reStructuredText"
+    },
+    {
+      "name": "Textile"
+    },
+    {
+      "name": "OPML"
+    }
+  ],
+  "defaultExportDirectoryMode": "Custom",
+  "openExportedFile": true,
+  "lastExportDirectory": {
+    "darwin": "/Users/yangyichen/个人资料/ob笔记/翼臣的笔记仓库/Z导出文件夹"
+  },
+  "lastEditName": "PDF",
+  "customDefaultExportDirectory": {
+    "darwin": "/Users/yangyichen/个人资料/ob笔记/翼臣的笔记仓库/Z导出文件夹"
+  },
+  "version": "1.1.8",
+  "lastExportType": "Word (.docx)"
+}

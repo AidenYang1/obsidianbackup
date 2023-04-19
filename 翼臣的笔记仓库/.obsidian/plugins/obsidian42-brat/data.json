@@ -1,0 +1,22 @@
+{
+  "pluginList": [
+    "OliverBalfour/obsidian-pandoc",
+    "Quorafind/Obsidian-Table-Generator",
+    "steven-kraft/obsidian-markdown-furigana",
+    "Stardusten/ob-table-enhancer",
+    "aidenlx/cm-chs-patch",
+    "scambier/obsidian-text-extractor",
+    "obsidian-canzi/Enhanced-editing",
+    "Trikzon/obsidian-web-browser"
+  ],
+  "pluginSubListFrozenVersion": [],
+  "themesList": [],
+  "updateAtStartup": false,
+  "updateThemesAtStartup": false,
+  "ribbonIconEnabled": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": true,
+  "notificationsEnabled": true
+}

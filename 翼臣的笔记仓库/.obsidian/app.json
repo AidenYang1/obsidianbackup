@@ -1,0 +1,18 @@
+{
+  "attachmentFolderPath": "./该文件下笔记的附件",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00A未归档",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "alwaysUpdateLinks": true,
+  "showLineNumber": false,
+  "spellcheck": true,
+  "readableLineLength": true,
+  "newLinkFormat": "shortest",
+  "promptDelete": false
+}

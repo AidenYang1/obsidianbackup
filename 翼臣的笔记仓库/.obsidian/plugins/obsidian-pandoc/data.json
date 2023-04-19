@@ -1,0 +1,15 @@
+{
+  "showCLICommands": false,
+  "addExtensionsToInternalLinks": "html",
+  "injectAppCSS": "light",
+  "injectThemeCSS": false,
+  "customCSSFile": null,
+  "displayYAMLFrontmatter": false,
+  "linkStrippingBehaviour": "text",
+  "highDPIDiagrams": true,
+  "pandoc": "/usr/local/bin/pandoc",
+  "pdflatex": null,
+  "outputFolder": "/Users/yangyichen/个人资料/ob笔记/翼臣的笔记仓库/Z导出文件夹",
+  "extraArguments": "",
+  "exportFrom": "html"
+}

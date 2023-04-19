@@ -1,0 +1,39 @@
+{
+  "selectionHighlighter": {
+    "highlightWordAroundCursor": true,
+    "highlightSelectedText": true,
+    "maxMatches": 100,
+    "minSelectionLength": 3,
+    "highlightDelay": 10,
+    "ignoredWords": "myself, our, ours, ourselves, you, your, yours, yourself, yourselves, him, his, himself, she, her, hers, herself, its, itself, they, them, their, theirs, themselves, what, which, who, whom, this, that, these, those, are, was, were, been, being, have, has, had, having, does, did, doing, the, and, but, because, until, while, for, with, about, against, between, into, through, during, before, after, above, below, from, down, out, off, over, under, again, further, then, once, here, there, when, where, why, how, all, any, both, each, few, more, most, other, some, such, nor, not, only, own, same, than, too, very, can, will, just, don, should,now"
+  },
+  "staticHighlighter": {
+    "queries": {
+      "canzi": {
+        "class": "canzi",
+        "color": "#42188038",
+        "regex": false,
+        "query": "知识",
+        "mark": [
+          "match"
+        ],
+        "css": "\"Mini-Linting\": {\n    \"class\": \"Mini-Linting\",\n    \"color\": \"#DE5D57FF\",\n    \"regex\": true,\n    \"query\": \"( {2,}(?!|)|- - |^\\\\s*- \\\\n|^ +(?![0-9-`])|[^ ] $)\",\n    \"mark\": [\n      \"match\"\n    ],\n    \"css\": \".cm-active .Mini-Linting {\\n  background: #DE5D57;\\n}\"\n  },"
+      },
+      "time": {
+        "class": "time",
+        "color": "#42188038",
+        "regex": true,
+        "query": "🎯\\d+:\\d+",
+        "mark": [
+          "match",
+          "start"
+        ],
+        "css": "{\n  \"Filler-Words\": {\n    \"class\": \"Filler-Words\",\n    \"color\": \"#2D801838\",\n    \"regex\": true,\n    \"query\": \"\\\\b([Aa] bit|[Aa]bsolutely|[Aa]ctually|[Aa]nd all that|[Aa]nd so forth|[Aa]nyway|[Bb]asically|[Cc]ertainly|[Cc]learly|[Cc]ompletely|[Dd]efinitely|[Ee]ffectively|[Ee]ntirely|[Ee]ssentially|[Ee]vidently|[Ee]xtremely|[Ff]airly|[Ff]rankly|[Ff]requently|[Gg]enerally|[Hh]opefully|[Kk]ind of|[Ll]argely|[Ll]iterally|[Mm]ore or less|[Mm]ostly|[Oo]ccasionally|[Oo]ften|[Oo]verall|[Pp]articularly|[Pp]erhaps|[Pp]ossibly|[Pp]ractically|[Pp]recisely|[Pp]resumably|[Pp]retty|[Pp]rimarily|[Pp]robably|[Pp]urely|[Qq]uite|[Rr]arely|[Rr]ather|[Rr]eally|[Rr]elatively|[Ss]eriously|[Ss]ignificantly|[Ss]imply|[Ss]lightly|[Ss]omehow|[Ss]ort of|[Ss]pecifically|[Ss]trongly|[Ss]upposedly|[Ss]urely|[Tt]he fact that|[Tt]otally|[Tt]ruly|[Tt]ypically|[Uu]ltimately|[Uu]sually|[Vv]ery|[Vv]irtually|[Ww]idely)\\\\b\",\n    \"mark\": [\n      \"match\"\n    ],\n    \"css\": \".cm-line .Filler-Words{\\n\\ttext-decoration: line-through;\\n\\tbackground: none;\\n\\tcolor: var(--text-muted);\\n}\\n\\n/* where to disable */\\n.HyperMD-quote.cm-line .Filler-Words,\\n.pdf-annotations .cm-line .Filler-Words {\\n\\ttext-decoration: none;\\n\\tcolor: unset;\\n}\"\n  }\n}"
+      }
+    },
+    "queryOrder": [
+      "canzi",
+      "time"
+    ]
+  }
+}
