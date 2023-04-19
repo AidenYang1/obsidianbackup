@@ -6,7 +6,7 @@
       {
         "id": "4d2c9f1363683867",
         "type": "tabs",
-        "dimension": 64.97134670487105,
+        "dimension": 50.78796561604585,
         "children": [
           {
             "id": "6d7045719cd3df67",
@@ -16,7 +16,7 @@
               "state": {
                 "bid": "uDZxTajclIbLojKO",
                 "viewerState": {
-                  "page": 213
+                  "page": 218
                 }
               }
             }
@@ -26,7 +26,7 @@
       {
         "id": "fe410204fcc78484",
         "type": "tabs",
-        "dimension": 35.02865329512894,
+        "dimension": 49.212034383954155,
         "children": [
           {
             "id": "a5670e6cac3e8811",
@@ -226,6 +226,8 @@
   },
   "active": "a5670e6cac3e8811",
   "lastOpenFiles": [
+    "03 IT类/开发、知识、工具/git使用.md",
+    "课程、技能、软件/本科学习/神经网络/神经网络 线性模型.md",
     "bookviewer/pdfjs/build/pdf.worker.js.map",
     "bookviewer/pdfjs/build/pdf.worker.js",
     "bookviewer/pdfjs/build/pdf.sandbox.js.map",
@@ -236,7 +238,6 @@
     "bookviewer/pdfjs/web/debugger.js",
     "bookviewer/pdfjs/web/viewer.css",
     "bookviewer/pdfjs/web/viewer.html",
-    "bookviewer/pdfjs/web/cmaps/UniCNS-UTF32-V.bcmap",
     "bookviewer/pdfjs/web/images/toolbarButton-sidebarToggle.svg",
     "bookviewer/pdfjs/web/images/loading-dark.svg",
     "bookviewer/pdfjs/web/images/secondaryToolbarButton-documentProperties.svg",
@@ -248,10 +249,8 @@
     "bookviewer/pdfjs/web/images/secondaryToolbarButton-spreadNone.svg",
     "bookviewer/pdfjs/web/images/secondaryToolbarButton-rotateCw.svg",
     "培训课程/web前端/HTML篇.md",
-    "课程、技能、软件/本科学习/神经网络/神经网络 线性模型.md",
     "课程、技能、软件/本科学习/软件工程/软件工程ppt 前26页文本内容 思路.md",
     "课程、技能、软件/本科学习/软件工程/软件工程 笔记1.md",
-    "03 IT类/开发、知识、工具/git使用.md",
     "培训课程/web前端/JavaScript/基础笔记/第一天修复版.md",
     "00A未归档/vscode使用.md",
     "-小画板/代理服务器分配操作流程.excalidraw.md",

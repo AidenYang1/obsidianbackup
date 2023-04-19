@@ -5,6 +5,10 @@
       "path": "课程、技能、软件/本科学习/神经网络/神经网络 线性模型.md"
     },
     {
+      "basename": "git使用",
+      "path": "03 IT类/开发、知识、工具/git使用.md"
+    },
+    {
       "basename": "HTML篇",
       "path": "培训课程/web前端/HTML篇.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "软件工程 笔记1",
       "path": "课程、技能、软件/本科学习/软件工程/软件工程 笔记1.md"
-    },
-    {
-      "basename": "git使用",
-      "path": "03 IT类/开发、知识、工具/git使用.md"
     },
     {
       "basename": "第一天修复版",
