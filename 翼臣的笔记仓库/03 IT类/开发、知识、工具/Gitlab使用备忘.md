@@ -18,3 +18,8 @@ glpat-sW-gTSPp3v3tk_3hNVjx
 
 [](https://gitlab.com/api/v4/projects/%E4%BB%93%E5%BA%93ID/repository/files/%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84/raw?ref=main&private_token=%E4%BB%A4%E7%89%8C)[https://gitlab.com/api/v4/projects/仓库ID/repository/files/文件路径/raw?ref=main&private_token=令牌](https://gitlab.com/api/v4/projects/%E4%BB%93%E5%BA%93ID/repository/files/%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84/raw?ref=main&private_token=%E4%BB%A4%E7%89%8C)
  **（文件路径的/要变为转译符号%2F）**
+
+[https://gitlab.com/api/v4/projects/45211963/repository/files/赵曦%2F赵曦.yaml/raw?ref=master&private_token=glpat-rcPpcUzKi8SUjPGxLAuY]
+# 订阅地址的
+https://gitlab.com/yyc5/subscribe/-/raw/master/%E8%B5%B5%E6%9B%A6/%E8%B5%B5%E6%9B%A6.yaml?inline=false
+glpat-rcPpcUzKi8SUjPGxLAuY

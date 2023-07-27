@@ -1,5 +1,8 @@
 {
   "pluginList": [
+    "liamcain/obsidian-calendar-plugin",
+    "marcjulianschwarz/obsidian-file-link",
+    "onlyafly/number-headings-obsidian",
     "OliverBalfour/obsidian-pandoc",
     "Quorafind/Obsidian-Table-Generator",
     "steven-kraft/obsidian-markdown-furigana",

@@ -1,8 +1,8 @@
 ---
-title: 4、docker 平台入门图解
+title: docker daemon 
 author: 杨翼臣
 date created: 星期二, 3月28日 2023, 9:33:28 晚上
-date modified: 星期二, 3月28日 2023, 9:34:03 晚上
+date modified: 星期五, 5月5日 2023, 12:13:04 凌晨
 tags: [docker 教程]
 aliases: 
 ---
@@ -24,24 +24,51 @@ aliases:
 
 
 # 安装
+
+^5e4507
+
 ## debain
 1.  首先，更新Debian软件包列表：
-`sudo apt-get update`
-2.  安装Docker依赖的软件包：
-`sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common`
-3.  添加Docker官方GPG密钥：
-`curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -`
-4.  添加Docker官方软件源：
-`sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"`
-5.  再次更新软件包列表：
-`sudo apt-get update`
-6.  最后，安装Docker：
-`sudo apt-get install docker-ce`
-7.  验证Docker是否正确安装：
-`sudo docker run hello-world`
 
-如果一切顺利，你应该能够看到Docker成功运行，并输出一条欢迎信息。
-以上就是在Debian中安装Docker的基本步骤。注意，这些步骤适用于Debian 9或更高版本。
+```bash
+sudo apt-get update
+```
+
+2.  安装Docker依赖的软件包：
+
+```bash
+sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common
+```
+
+3.  添加Docker官方GPG密钥：
+
+```bash
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+```
+4.  添加Docker官方软件源：
+
+```bash
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
+```
+
+5.  再次更新软件包列表：
+
+```bash
+sudo apt-get update
+```
+
+6.  最后，安装Docker：
+
+```bash
+sudo apt-get install docker-ce
+```
+
+7.  验证Docker是否正确安装：
+
+```bash
+sudo docker run hello-world
+```
+
 ## cent os
 以下是在CentOS上安装Docker的步骤：
 1. 更新软件包列表：
@@ -88,40 +115,33 @@ aliases:
 ## ubuntu
 以下是在Ubuntu上安装Docker的步骤：
 1. 更新软件包列表：
-   ```
-
+   ```bash
    sudo apt-get update
-
    ```
 2. 安装Docker的依赖库：
-   ```
-
+   ```bash
    sudo apt-get install -y apt-transport-https ca-certificates curl gnupg-agent software-properties-common
 
    ```
 3. 添加Docker的GPG密钥：[[4、docker 平台图解#^1b54df|为什么多了这一步骤？]]
-   ```
+   ```bash
 
    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
    ```
 1. 添加Docker的APT仓库：**如有需要，换成阿里云镜像仓库。** [[4、docker 平台图解，安装docker（完整）#^acacc7|阿里云镜像]]
-   ```
+   ```bash
 
    sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 
    ```
 5. 再次更新软件包列表：
-   ```
-
+   ```bash
    sudo apt-get update
-
    ```
 6. 安装最新版本的Docker：
-   ```
-
+   ```bash
    sudo apt-get install docker-ce docker-ce-cli containerd.io
-
    ```
 7. 启动Docker服务：
    ```

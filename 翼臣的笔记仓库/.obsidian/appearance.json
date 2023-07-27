@@ -4,7 +4,7 @@
   "cssTheme": "AnuPpuccin",
   "translucency": true,
   "interfaceFontFamily": "PingFang TC,PingFang SC",
-  "baseFontSize": 16,
+  "baseFontSize": 15,
   "enabledCssSnippets": [
     "段落首行缩进",
     "yaozhuwa@CSS",

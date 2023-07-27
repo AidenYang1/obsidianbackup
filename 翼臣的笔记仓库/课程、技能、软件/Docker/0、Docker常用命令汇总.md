@@ -18,11 +18,11 @@ aliases:
 |     | 列出本地镜像                                         | docker images                                          |                |
 |     | 列出所有镜像                                         | docker images -a                                       |                |
 |     | 推送                                                 | docker push                                            |                |
-|     | 拉取                                                 | docker pull                                            |                |
+|     | 拉取                                                 |docker pull|                |
 |     | 根据dockerfile文件构建镜像                           | docker build                                           |                |
 |     | 停止容器运行                                         | docker stop                                            |                |
 |     | 删除容器                                             | docker rm                                              |                |
-|     | 删除镜像                                             | docker rmi                                             |                |
+|     | 删除镜像                                             |docker rmi|                |
 |     | 删除所有                                             | docker rm -rf /\**                                     |                |
 |     | 删除所有镜像                                         | docker rmi -f $(docker images -qa)                     |                |
 |     | 强制                                                 | -f                                                     |                |
@@ -59,7 +59,7 @@ aliases:
 |     | 开机自启动                                           |                                                        |                |
 |     | 清理未使用的镜像、容器和卷，并删除任何未使用的数据。 | sudo docker system prune -a                            |                |
 |     |                                                      |                                                        |                |
-|     |                                                      |                                                        |                |
+|     |  |                                                        |                |
 |     | 搜索镜像                                             | docker search                                          |                |
 |     | 限定列出多少项镜像                                   | docker search --limit 数量 镜像名称                    |                |
 |     |                                                      |                                                        |                |

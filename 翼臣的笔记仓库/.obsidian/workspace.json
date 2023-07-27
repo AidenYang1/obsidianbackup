@@ -4,44 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "4d2c9f1363683867",
+        "id": "7c3affc7b5c9cc54",
         "type": "tabs",
-        "dimension": 50.78796561604585,
         "children": [
           {
-            "id": "6d7045719cd3df67",
-            "type": "leaf",
-            "state": {
-              "type": "bm-book-view",
-              "state": {
-                "bid": "uDZxTajclIbLojKO",
-                "viewerState": {
-                  "page": 218
-                }
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "fe410204fcc78484",
-        "type": "tabs",
-        "dimension": 49.212034383954155,
-        "children": [
-          {
-            "id": "a5670e6cac3e8811",
+            "id": "486b60702e2016a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课程、技能、软件/本科学习/神经网络/神经网络 线性模型.md",
+                "file": "03 IT类/服务器/ssh登录公钥免密登录(已验证).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a03fff8217766bd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "课程、技能、软件/软件使用/微信/微信插件.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +46,6 @@
       {
         "id": "25d913febd1cc5aa",
         "type": "tabs",
-        "dimension": 76.30331753554502,
         "children": [
           {
             "id": "f65838a3dedf10e8",
@@ -79,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "插件",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -103,29 +95,21 @@
               "type": "bm-explorer-view",
               "state": {}
             }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "116f9ab5060855bf",
-        "type": "tabs",
-        "dimension": 23.696682464454977,
-        "children": [
+          },
           {
-            "id": "793a559cd1b85ce3",
+            "id": "aa681a6af8eebe7d",
             "type": "leaf",
             "state": {
-              "type": "starred",
+              "type": "bookmarks",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "05c97dfa86987577",
@@ -136,12 +120,22 @@
         "type": "tabs",
         "children": [
           {
+            "id": "be9c1cecbfe421dc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "课程、技能、软件/软件使用/微信/微信插件.md"
+              }
+            }
+          },
+          {
             "id": "96886edebab6aeac",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "课程、技能、软件/本科学习/神经网络/神经网络 线性模型.md",
+                "file": "课程、技能、软件/软件使用/微信/微信插件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "课程、技能、软件/本科学习/神经网络/神经网络 线性模型.md",
+                "file": "课程、技能、软件/软件使用/微信/微信插件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,102 +170,99 @@
             }
           },
           {
-            "id": "d7a260c45202520c",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "课程、技能、软件/本科学习/神经网络/神经网络 线性模型.md"
-              }
-            }
-          },
-          {
             "id": "e9ffbbc1b68aa8c0",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "85b7b622b04715cf",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 227,
-    "collapsed": true
+    "width": 227
   },
   "left-ribbon": {
     "hiddenItems": {
       "publish:发布更改": false,
-      "obsidian-bookmaster-plugin:Book Explorer": false,
       "canvas:新建白板": false,
-      "markdown-table-editor:Open Markdown Table Editor": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "omnisearch:Omnisearch": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian42-brat:BRAT": false,
+      "workspaces:管理工作区布局": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-weread-plugin:Weread": false,
-      "templater-obsidian:Templater": false,
+      "notion-like-tables:Create new loom": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "markdown-table-editor:Open Markdown Table Editor": false,
+      "obsidian42-brat:BRAT": false,
+      "omnisearch:Omnisearch": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "remotely-save:Remotely Save": false,
-      "workspaces:管理工作区布局": false
+      "templater-obsidian:Templater": false,
+      "obsidian-weread-plugin:Weread": false
     }
   },
-  "active": "a5670e6cac3e8811",
+  "active": "a03fff8217766bd0",
   "lastOpenFiles": [
-    "03 IT类/开发、知识、工具/git使用.md",
-    "课程、技能、软件/本科学习/神经网络/神经网络 线性模型.md",
-    "bookviewer/pdfjs/build/pdf.worker.js.map",
-    "bookviewer/pdfjs/build/pdf.worker.js",
-    "bookviewer/pdfjs/build/pdf.sandbox.js.map",
-    "bookviewer/pdfjs/build/pdf.sandbox.js",
-    "bookviewer/pdfjs/build/pdf.js.map",
-    "bookviewer/pdfjs/build/pdf.js",
-    "bookviewer/pdfjs/build",
-    "bookviewer/pdfjs/web/debugger.js",
-    "bookviewer/pdfjs/web/viewer.css",
-    "bookviewer/pdfjs/web/viewer.html",
-    "bookviewer/pdfjs/web/images/toolbarButton-sidebarToggle.svg",
-    "bookviewer/pdfjs/web/images/loading-dark.svg",
-    "bookviewer/pdfjs/web/images/secondaryToolbarButton-documentProperties.svg",
-    "bookviewer/pdfjs/web/images/secondaryToolbarButton-rotateCcw.svg",
-    "bookviewer/pdfjs/web/images/toolbarButton-search.svg",
-    "bookviewer/pdfjs/web/images/shadow.png",
-    "bookviewer/pdfjs/web/images/toolbarButton-viewAttachments.svg",
-    "bookviewer/pdfjs/web/images/findbarButton-next.svg",
-    "bookviewer/pdfjs/web/images/secondaryToolbarButton-spreadNone.svg",
-    "bookviewer/pdfjs/web/images/secondaryToolbarButton-rotateCw.svg",
-    "培训课程/web前端/HTML篇.md",
-    "课程、技能、软件/本科学习/软件工程/软件工程ppt 前26页文本内容 思路.md",
-    "课程、技能、软件/本科学习/软件工程/软件工程 笔记1.md",
-    "培训课程/web前端/JavaScript/基础笔记/第一天修复版.md",
-    "00A未归档/vscode使用.md",
-    "-小画板/代理服务器分配操作流程.excalidraw.md",
-    "00B目前在做的项目/代理服务器每个人的备忘.md",
+    "03 IT类/服务器/ssh登录公钥免密登录(已验证).md",
+    "课程、技能、软件/软件使用/微信/微信插件.md",
+    "课程、技能、软件/Mac/MAC命令.md",
+    "课程、技能、软件/软件使用/微信",
+    "01公安类/交通法/交通法律规则.md",
+    "02个人生活类/个人其他杂项/车辆使用.md",
+    "01公安类/交通法",
+    "其他内容（勿动！！！）/viewbook/bookviewer/pdfjs/web/cmaps/KSC-Johab-H.bcmap",
+    "其他内容（勿动！！！）/viewbook/bookviewer/pdfjs/web/images/loading-dark.svg",
+    "其他内容（勿动！！！）/viewbook/bookviewer/pdfjs/web/cmaps/Adobe-GB1-0.bcmap",
+    "其他内容（勿动！！！）/viewbook/bookviewer/webviewer/core/pdf/PDFNet.prod.js",
+    "其他内容（勿动！！！）/viewbook/bookviewer/pdfjs/web/images/loading-icon.gif",
+    "其他内容（勿动！！！）/viewbook/bookviewer/webviewer/core/assets/zoom-in.cur",
+    "其他内容（勿动！！！）/viewbook/bookviewer/webviewer/core/external/quill.css",
+    "其他内容（勿动！！！）/viewbook/bookviewer/epubjs-reader/libs/jszip/jszip.js",
+    "其他内容（勿动！！！）/viewbook/bookviewer/epubjs-reader/reader/img/star.png",
+    "其他内容（勿动！！！）/viewbook/bookviewer/epubjs-reader/reader/js/reader.js",
+    "其他内容（勿动！！！）/viewbook/bookviewer/epubjs-reader/reader/css/main.css",
+    "其他内容（勿动！！！）/viewbook/bookviewer/epubjs-reader/reader/img/save.png",
+    "其他内容（勿动！！！）/viewbook/bookviewer/epubjs-reader/reader/img/saved.png",
+    "其他内容（勿动！！！）/viewbook/bookviewer/epubjs-reader/reader/img/close.png",
+    "其他内容（勿动！！！）/viewbook/bookviewer/pdfjs/web/images/annotation-key.svg",
+    "其他内容（勿动！！！）/viewbook/bookviewer/epubjs-reader/reader/img/loader.gif",
+    "其他内容（勿动！！！）/viewbook/bookviewer/pdfjs/web/images/annotation-note.svg",
+    "其他内容（勿动！！！）/viewbook/bookviewer/pdfjs/web/images/annotation-help.svg",
+    "00A未归档/入党介绍人意见.md",
+    "00A未归档/大英线上会议记录.md",
+    "00A未归档/神经网络期末复习.md",
+    "00A未归档/软件工程期末复习笔记.md",
+    "课程、技能、软件/软件使用/MySQL/忘记sql root密码解决办法.md",
+    "00A未归档/000sf.md",
+    "知识杂记/生活词语.md",
+    "课程、技能、软件/本科学习/神经网络/神经网络ppt讲解.md",
+    "培训课程/web前端/CSS实际开发时.md",
     "课程、技能、软件/本科学习/web开发/django笔记.md",
-    "培训课程/web前端/JavaScript/JavaScript进阶笔记/JavaScript进阶第一天.md",
-    "00A未归档/查看系统.md",
-    "00A未归档/未命名 1.md",
-    "00A未归档/未命名.md",
-    "00A未归档/加载.md",
-    "—Excalidraw/Drawing 2023-04-10 20.09.12.excalidraw.md",
-    "—Excalidraw/Drawing 2023-04-10 20.07.42.excalidraw.md",
-    "—Excalidraw/Drawing 2023-04-10 20.07.31.excalidraw.md",
-    "—Excalidraw/Drawing 2023-04-10 20.03.59.excalidraw.md",
+    "课程、技能、软件/本科学习/神经网络/神经网络 线性模型.md",
+    "00A未归档/该文件下笔记的附件/000sf 2023-06-02 14.31.26.excalidraw.md",
+    "03 IT类/计算机杂类/计算机基础知识/信息常识.md",
+    "03 IT类/计算机杂类/计算机基础知识/计算机概念.md",
+    "课程、技能、软件/软件使用/vscode使用.md",
+    "00A未归档/该文件下笔记的附件/思维 2023-05-07 19.44.04.excalidraw.md",
+    "00A未归档/4、docker 平台图解.md",
+    "03 IT类/个人技术/7.rsshub的搭建.md",
+    "00B目前在做的项目/2.电报机器人.md",
+    "00B目前在做的项目/1.代理服务器每个人的备忘.md",
+    "03 IT类/个人技术/6.telegram gpt机器人.md",
     "未命名.canvas",
-    "03 IT类/科学上网/订阅管理工具.md",
-    "00B目前在做的项目/电报机器人.md",
-    "00B目前在做的项目/该文件下笔记的附件/电报机器人 2023-04-16 17.19.10.excalidraw.md",
-    "00A未归档/|600.md",
-    "00A未归档/p81.md",
-    "00A未归档/Pasted image 20230308230028.png.md",
     "未命名 3.canvas",
     "未命名 4.canvas",
     "未命名 2.canvas",

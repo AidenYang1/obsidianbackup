@@ -3962,8 +3962,7 @@ function isSearchView(view) {
     setMatchingCase,
     setSortOrder,
     searchInfoEl,
-    searchComponent,
-    headerDom
+    searchComponent
   } = view;
   if (typeof matchingCase !== "boolean") {
     return false;
@@ -3981,9 +3980,6 @@ function isSearchView(view) {
     return false;
   }
   if (!(searchInfoEl instanceof HTMLDivElement)) {
-    return false;
-  }
-  if (!isSearchHeaderDom(headerDom)) {
     return false;
   }
   if (!(setCollapseAll instanceof Function)) {
@@ -4061,19 +4057,6 @@ function isSearchResultItem(obj) {
     return false;
   }
   if (!(containerEl instanceof HTMLElement)) {
-    return false;
-  }
-  return true;
-}
-function isSearchHeaderDom(obj) {
-  if (typeof obj !== "object" || obj === null) {
-    return false;
-  }
-  const { navButtonsEl } = obj;
-  if (typeof navButtonsEl !== "object") {
-    return false;
-  }
-  if (!(navButtonsEl instanceof HTMLDivElement)) {
     return false;
   }
   return true;

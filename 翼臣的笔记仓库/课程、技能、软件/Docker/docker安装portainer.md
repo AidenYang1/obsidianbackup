@@ -13,6 +13,12 @@ sudo mkdir /opt/portainer_data
 
 ```
 
+我自定义的数据卷
+
+```
+sudo mkdir /root/data/portainer_data
+```
+
 # 2.拉取并运行
 
 ```

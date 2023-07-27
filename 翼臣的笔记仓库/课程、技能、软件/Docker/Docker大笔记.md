@@ -634,6 +634,16 @@ docker run - it --network container: 要用哪个容器的端口和ip  --name �
 - 注意：寄生容器被停掉，则该容器将无法访问；
 
 
+## 端口
+如果使用
+```sh
+sudo lsof -i :端口号
+```
+杀掉进程后，再次新建容器还是出现端口被占用；就重启docker服务； ^21afc0
+```sh
+sudo systemctl restart docker
+```
+
 ## 自定义网络
 - 创建网络的命令：
 
@@ -1135,3 +1145,5 @@ Consul-Template的实现过程如下：
    当Consul中的服务状态发生变化时，Consul-Template会自动更新配置文件，并重新加载服务。
 
 Consul-Template通过监视Consul中的key-value存储和服务注册信息，自动更新服务配置文件，从而实现了服务的自动配置和更新。同时，Consul-Template支持多种输出格式，包括文件、环境变量和命令行参数等，可以满足不同场景下的需求。
+
+

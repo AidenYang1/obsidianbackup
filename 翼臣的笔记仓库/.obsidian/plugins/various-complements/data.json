@@ -47,30 +47,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "容器": {
-      "容器": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1679384679723
-        }
-      }
-    },
-    "镜像": {
-      "镜像": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1679384709647
-        }
-      }
-    },
-    "docker": {
-      "docker": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1680014407073
-        }
-      }
-    },
     "-d": {
       "-d": {
         "currentFile": {
@@ -82,8 +58,8 @@
     "docker-compose": {
       "docker-compose": {
         "currentFile": {
-          "count": 3,
-          "lastUpdated": 1681192448139
+          "count": 4,
+          "lastUpdated": 1683219613274
         }
       }
     },
@@ -140,6 +116,14 @@
         "currentFile": {
           "count": 2,
           "lastUpdated": 1681703296226
+        }
+      }
+    },
+    "return": {
+      "return": {
+        "customDictionary": {
+          "count": 3,
+          "lastUpdated": 1682864082050
         }
       }
     }

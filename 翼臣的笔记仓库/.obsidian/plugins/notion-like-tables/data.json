@@ -1,4 +1,13 @@
 {
+  "shouldDebug": false,
+  "createAtObsidianAttachmentFolder": false,
+  "customFolderForNewFiles": "",
+  "exportRenderMarkdown": true,
+  "defaultEmbedWidth": "100%",
+  "defaultEmbedHeight": "340px",
+  "hasMigratedTo800": true,
+  "showWelcomeModal": false,
+  "pluginVersion": "8.0.0",
   "data": {
     "table-id-A3kQb1": {
       "model": {
@@ -102,6 +111,5 @@
     "viewModes": [],
     "eventType": "update-state"
   },
-  "shouldClear": false,
-  "shouldDebug": false
+  "shouldClear": false
 }
